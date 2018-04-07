@@ -1,0 +1,20 @@
+/**
+ * Created by Yoav Rosenbaum Nogah Goldberg
+ */
+'use strict';
+//import dependency
+var mongoose = require('mongoose');
+var Schema = mongoose.Schema;
+//create new instance of the mongoose.schema. the schema takes an
+//object that shows the shape of your database entries.
+var TodoListsSchema = new Schema({
+    id: String,
+    title: String,
+    data: [{id: String, text: String, isCompleted: Boolean}],
+    username: String,
+    backgroundColor: String,
+    sharedWith: [String]
+
+});
+//export our module to use in server.js
+module.exports = mongoose.model('TodoList', TodoListsSchema);

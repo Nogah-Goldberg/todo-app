@@ -1,0 +1,14 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "axios": "^0.16.2",
+    "body-parser": "^1.17.2",
+    "express": "^4.15.4",
+    "jquery": "^3.2.1",
+    "mongoose": "^4.11.7",
+    "path": "^0.12.7"
+  },
+  "main": "server.js"
+}
