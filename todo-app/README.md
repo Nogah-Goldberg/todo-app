@@ -1,4 +1,4 @@
-Created by Yoav Rosenbaum 304953128 and Nogah Goldberg 302365713.
+Created by Nogah Goldberg and Yoav Rosenbaum 
 
 
 Link to heroku project: https://enigmatic-refuge-27351.herokuapp.com
